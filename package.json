@@ -1,0 +1,20 @@
+{
+  "name": "event-product-custom-metric",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "APP_ENV=development node index.js",
+    "staging": "APP_ENV=staging node index.js",
+    "start": "APP_ENV=production node index.js"
+  },
+  "author": "Yael Montufar",
+  "license": "MIT",
+  "description": "Shopify webhook integration that sends event product details to Klaviyo as custom metrics for automated flow triggers",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
